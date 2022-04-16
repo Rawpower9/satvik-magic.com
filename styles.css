@@ -1,0 +1,49 @@
+header #head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header #head ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    margin-left: 0%;
+    color: white;
+}
+
+header #head ul li a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+header #head ul li{
+    padding: 5px 10px 5px 10px;
+}
+
+header #head ul :hover{
+    text-decoration:underline;
+}
+
+header .img img{
+    width: 10px;
+    height: 80px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+header{
+    background-color: black;
+    padding: 2.5% 5% 0% 5%;
+}
+
+header div p{
+    color: white;
+}
+
+html body{
+    margin: 0%;
+    padding: 0%;
+}
