@@ -47,3 +47,37 @@ html body{
     margin: 0%;
     padding: 0%;
 }
+
+#bookNow {
+
+    border-radius: 25px; 
+    border: 1px solid white;
+    background-color: rgba(81,49,39,255);
+    
+}
+
+#bookNow {
+    color: white;
+    padding: 15px
+
+}
+
+#btnHolder :hover {
+    background-color: white;
+    color: rgba(81,49,39,255);
+    transition-duration: 100ms;
+}
+
+#bookNow :hover {
+    transition-duration: 100ms;
+}
+
+.SatvikPosing {
+    background-image: url("https://cdn.discordapp.com/attachments/878096434648473660/970461815496663090/PXL_20210710_032408403.MP.jpg");
+    width: 90%;
+    margin-left: 5%;
+    height: 550px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
