@@ -5,7 +5,7 @@ header #head {
     justify-content: space-between;
 }
 
-header #head ul{
+header #head ul {
     display: flex;
     list-style-type: none;
     padding-left: 0%;
@@ -13,58 +13,57 @@ header #head ul{
     color: white;
 }
 
-header #head ul li a{
+header #head ul li a {
     text-decoration: none;
     color: white;
     border-radius: 10px;
 }
 
-header #head ul li{
+header #head ul li {
     padding: 5px 10px 5px 10px;
 }
 
-header #head ul :hover{
-    text-decoration:underline;
+header #head ul :hover {
+    text-decoration: underline;
 }
 
-header .img img{
+header .img img {
     width: 10px;
     height: 80px;
     object-fit: contain;
     object-position: center center;
 }
 
-header{
+header {
     background-color: black;
     padding: 2.5% 5% 0% 5%;
 }
 
-header div p{
+header div p {
     color: white;
 }
 
-html body{
+html body {
     margin: 0%;
     padding: 0%;
 }
 
 #bookNow {
 
-    border-radius: 25px; 
+    border-radius: 25px;
     border: 1px solid white;
-    background-color: rgba(81,49,39,255);
-    
+    background-color: rgba(81, 49, 39, 255);
+
 }
 
 #bookNow {
     color: white;
     padding: 15px
-
 }
 
 #btnHolder :hover {
     background-color: white;
-    color: rgba(81,49,39,255);
+    color: rgba(81, 49, 39, 255);
     transition-duration: 100ms;
 }
 
