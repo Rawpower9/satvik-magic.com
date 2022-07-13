@@ -80,3 +80,31 @@ html body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+footer > div > a{
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 25px;
+    width: 25px;
+}
+
+footer>div>a>div {
+    background-repeat: no-repeat;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+
+#facebook{
+    background-image: url(./icons/facebook.jpeg);
+}
+#youtube {
+    background-image: url(./icons/youtube.jpg);
+}
+
+#tiktok {
+    background-image: url(./icons/tiktok.jpg);
+}
